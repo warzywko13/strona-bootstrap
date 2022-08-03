@@ -1,0 +1,85 @@
+.navbar-expand-md{
+   background: rgba(36, 40, 44, 0.9);
+}
+
+.navbar-dark .navbar-nav .nav-link{
+   color: #fff;
+   font-weight: bold;
+   padding: 1.2rem;
+}
+
+.navbar-toggler{
+   margin-right: 1rem;
+}
+
+.navbar-dark:hover .navbar-nav:hover .nav-link:hover{
+   color: #ffd200;
+}
+
+/*Start Slider*/
+.carousel-item{
+   height: 100vh;
+   margin: auto;
+}
+
+.carousel-caption{
+   color: #fff;
+   position: absolute;
+   top: 38%;
+   text-transform: uppercase;
+   width: 100%;
+   right: 0;
+   left: 0;
+}
+
+.carousel-caption h1{
+   font-size: 3.8rem;
+   font-weight: 700;
+   letter-spacing: .3rem;
+   text-shadow: .1rem .1rem .8rem black;
+   padding-bottom: 1rem;
+}
+
+.carousel-caption h3{
+   font-size: 2;
+   text-shadow: .1rem .1rem .5rem black;
+   padding-bottom: 1.6rem;
+}
+
+.btn-lg{
+   border-width: medium;
+   border-radius: 0;
+   font-weight: bolder;
+}
+/*End Slider*/
+
+/*Start O Nas*/
+.o_nas p{
+   font-size: 1.4rem;
+}
+/*End O Nas*/
+
+
+/*Start Uslugi*/
+
+.uslugi{
+   background: url("../assets/wall-2933017_1920.jpg");
+}
+
+.card{
+   width: 13rem;
+}
+
+/*End Uslugi*/
+
+/*Start Footer*/
+footer a{
+   text-decoration: none;
+   color: #f8f9fa;
+}
+
+footer a:hover{
+   color: #ffd200;
+   text-decoration: underline;
+}
+/*End Footer*/
